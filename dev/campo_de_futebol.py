@@ -1,13 +1,7 @@
-""" 
-Digite  a área de desmatamento: 
-Area desmatada: xxxxx
-Equivalente  a xxxxx campos de futebol (arrendondado) - use funcao round( )
-Mas precisamente :   xxxxxxx campos
+KM2_PARA_M2 = 1_000_000
+AREA_CAMPO_M2 = 100 * 60
+area_desvastada_Km2 = float(input("Digite a área desvastada em Km²: "))
+area_total_desmatada_m2 = area_desvastada_Km2 * (1000**2)
+area_campo_futebol = area_total_desmatada_m2 / AREA_CAMPO_M2
+print(f"A área desmatada {area_desvastada_Km2:,.2f} km² equivale a {area_campo_futebol:,.2f} campos de futebol.")
 
-use as funções: pow(2,2) e round( ) ou o operador **
-  """
-area_desmatada = float(input("Digite a área de desmatamento: "))
-
-area_campo = float(input("Digite a área do campo de futebol: "))
-
-campo_exas

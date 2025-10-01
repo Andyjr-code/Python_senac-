@@ -1,3 +1,5 @@
+import math
+
 """ 
 Cadastrar um produto e descobrir o valor total
 """  
