@@ -1,0 +1,2 @@
+print("É PRECISO FAZER TODOS OS ALGORITMOS PARA APRENDER.")
+print("Andy")
