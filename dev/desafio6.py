@@ -10,7 +10,7 @@ def dividir(a, b):
     else:
         return "Erro: Divisão por zero"
  
-    def potencia(a, b):
+def potencia(a, b):
         return a ** b
     
-    print(pote)
+print(potencia)
